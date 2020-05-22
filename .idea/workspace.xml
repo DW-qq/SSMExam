@@ -53,8 +53,7 @@
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -109,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/swjd/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+            <state relative-caret-position="159">
+              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -219,8 +218,15 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="828" />
+    <option name="x" value="717" />
     <option name="width" value="1185" />
     <option name="height" value="1020" />
   </component>
@@ -262,6 +268,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="swjd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -394,15 +407,23 @@
       <updated>1590020790087</updated>
       <workItem from="1590020793122" duration="5999000" />
       <workItem from="1590029407734" duration="70000" />
-      <workItem from="1590113013411" duration="1645000" />
+      <workItem from="1590113013411" duration="2579000" />
     </task>
+    <task id="LOCAL-00001" summary="first提交">
+      <created>1590115905536</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590115905536</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7714000" />
+    <option name="totallyTimeSpent" value="8648000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="663" y="0" width="948" height="816" extended-state="0" />
+    <frame x="574" y="0" width="948" height="816" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25955057" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -441,6 +462,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="first提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -578,8 +603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/swjd/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        <state relative-caret-position="159">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
