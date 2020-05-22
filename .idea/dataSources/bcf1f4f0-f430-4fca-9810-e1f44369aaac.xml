@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="crm@localhost">
+  <database-model serializer="dbm" dbms="UNKNOWN" family-id="UNKNOWN" format-version="4.15">
+    <root id="1">
+      <ServerVersion>0.0</ServerVersion>
+      <DefaultCasing>lower/lower</DefaultCasing>
+    </root>
+    <database id="2" parent="1" name="blog_db"/>
+    <database id="3" parent="1" name="bookdb"/>
+    <database id="4" parent="1" name="crm">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="5" parent="1" name="custmerdb"/>
+    <database id="6" parent="1" name="db_let"/>
+    <database id="7" parent="1" name="fruit"/>
+    <database id="8" parent="1" name="gues"/>
+    <database id="9" parent="1" name="hrdb"/>
+    <database id="10" parent="1" name="information_schema"/>
+    <database id="11" parent="1" name="lvyou"/>
+    <database id="12" parent="1" name="mpdb"/>
+    <database id="13" parent="1" name="mybatis06"/>
+    <database id="14" parent="1" name="mybatistest"/>
+    <database id="15" parent="1" name="mysql"/>
+    <database id="16" parent="1" name="school1"/>
+    <database id="17" parent="1" name="sometravel"/>
+    <database id="18" parent="1" name="spring-course"/>
+    <database id="19" parent="1" name="student"/>
+    <database id="20" parent="1" name="test"/>
+    <database id="21" parent="1" name="test1"/>
+    <database id="22" parent="1" name="user"/>
+    <schema id="23" parent="4">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <table id="24" parent="23" name="customer"/>
+    <table id="25" parent="23" name="dict"/>
+    <table id="26" parent="23" name="user"/>
+    <column id="27" parent="24" name="customerId">
+      <Position>1</Position>
+      <Comment>客户编号</Comment>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="28" parent="24" name="customerName">
+      <Position>2</Position>
+      <Comment>客户名称（公司名称）</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="29" parent="24" name="customerUserId">
+      <Position>3</Position>
+      <Comment>客户负责人编号</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="30" parent="24" name="customerCreateId">
+      <Position>4</Position>
+      <Comment>客户创建人编号</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="31" parent="24" name="customerSourse">
+      <Position>5</Position>
+      <Comment>客户信息来源</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="32" parent="24" name="customerIndustry">
+      <Position>6</Position>
+      <Comment>客户所属行业</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="33" parent="24" name="customerPhone">
+      <Position>7</Position>
+      <Comment>客户电话</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="34" parent="24" name="customerAddress">
+      <Position>8</Position>
+      <Comment>客户地址</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="35" parent="24" name="customerDate">
+      <Position>9</Position>
+      <Comment>创建日期</Comment>
+      <DataType>DATE(10)|91s</DataType>
+    </column>
+    <index id="36" parent="24" name="PRIMARY">
+      <ColNames>customerId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="37" parent="24" name="PRIMARY">
+      <ColNames>customerId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="38" parent="25" name="dictId">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="39" parent="25" name="dictType">
+      <Position>2</Position>
+      <Comment>类别编号</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="40" parent="25" name="dictTypeName">
+      <Position>3</Position>
+      <Comment>类编名称</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="41" parent="25" name="dictItemCode">
+      <Position>4</Position>
+      <Comment>项目编号</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="42" parent="25" name="dictItemName">
+      <Position>5</Position>
+      <Comment>项目名称</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="43" parent="25" name="dictSort">
+      <Position>6</Position>
+      <Comment>排序字段</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="44" parent="25" name="dictFlag">
+      <Position>7</Position>
+      <Comment>状态 0-禁用  1-正常</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="45" parent="25" name="remark">
+      <Position>8</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <index id="46" parent="25" name="PRIMARY">
+      <ColNames>dictId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="47" parent="25" name="PRIMARY">
+      <ColNames>dictId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="48" parent="26" name="uid">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="49" parent="26" name="uname">
+      <Position>2</Position>
+      <Comment>用户昵称</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="50" parent="26" name="realname">
+      <Position>3</Position>
+      <Comment>真实姓名</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="51" parent="26" name="password">
+      <Position>4</Position>
+      <Comment>密码</Comment>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="52" parent="26" name="flag">
+      <Position>5</Position>
+      <Comment>状态：1正常  0禁用</Comment>
+      <DataType>INT(10)|4s</DataType>
+    </column>
+    <index id="53" parent="26" name="PRIMARY">
+      <ColNames>uid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="54" parent="26" name="PRIMARY">
+      <ColNames>uid</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
