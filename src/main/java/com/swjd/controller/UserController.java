@@ -20,6 +20,7 @@ public class UserController {
     @RequestMapping("/toLogin")
     public String toLogin(Model model){
         User user = new User();
+        System.out.println(user);
         model.addAttribute("user",user);
         return "login";
     }
